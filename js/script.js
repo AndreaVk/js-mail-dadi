@@ -21,3 +21,13 @@ for (let i = 0; i < CorrectMail.length; i++) {
 if (verify) {
     alert('Accesso consentito');
 }
+
+if (verify){
+    document.getElementById('risposta').innerHTML = 'La mail è corretta';
+} else {
+    document.getElementById('risposta').innerHTML = 'La mail non è corretta';
+    alert('Accesso Negato');
+}
+
+
+
